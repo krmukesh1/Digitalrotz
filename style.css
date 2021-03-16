@@ -90,6 +90,25 @@ button:focus:not(:focus-visible) {
 }
 video#myVideo {
     width: 100%;
-    /* height: 116vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+div#foo-content {
+    display: block;
+    position: absolute;
+    margin-top: -619px;
+    /* top: 0; */
+    color: #fff;
+}
+div#foo-bottom {
+    position: absolute;
+    margin-top: -119px;
+  
+    color: #fff;
+}
+#foo-bottom .col-md-8 a {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0 20px;
+}
