@@ -65,14 +65,7 @@ section.section5 {
     height: 50vh;
     padding-top: 110px;
 }
-.section5 button.btn {
-    border: 1px solid #fff;
-    border-radius: 41px;
-    width: 201px;
-    height: 60px;
-    background: #fff;
-    margin-left: 202px;
-}
+
 
 button:focus:not(:focus-visible) {
     outline: 0;
@@ -80,9 +73,14 @@ button:focus:not(:focus-visible) {
 .section5 button.btn {
     border: 1px solid #fff;
     border-radius: 41px;
-    width: 201px;
-    height: 60px;
+    width: 300px;
+    font-size: 31px;
+    font-weight: 700;
+    height: 80px;
+    color: #4CAF50;
     background: #fff;
+    margin-left: 260px;
+
 }
 .btn-check:focus+.btn, .btn:focus {
     outline: 0;
@@ -101,14 +99,32 @@ div#foo-content {
     /* top: 0; */
     color: #fff;
 }
+#foo-content p {
+    text-align: end;
+}
+
 div#foo-bottom {
     position: absolute;
     margin-top: -119px;
   
     color: #fff;
 }
-#foo-bottom .col-md-8 a {
+#foo-bottom .col-md-9 {
+    text-align: center;
+    margin-top: 6px;
+}
+
+#foo-bottom .col-md-9 a {
     color: #fff !important;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 75px 0 0px;
+}
+#foo-bottom .col-md-3 a {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0px 0px 0 30px;
+    font-size: 25px;
+}
+.col-md-3 {
+    text-align: end;
 }
