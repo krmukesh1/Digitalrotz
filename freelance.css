@@ -39,6 +39,15 @@ section.section1 {
     height: 100vh;
     margin-top: -40px;
 }
+section.section1 .join {
+    position: relative;
+    top: 40%;
+    left: 32%;
+}
+section.section1 h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
 section.section4 {
     height: 30rem;
     display: flex;
