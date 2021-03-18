@@ -1,0 +1,145 @@
+.container-fluid {
+    padding: 0px 100px !important;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a.nav-link.btn1{
+    border-radius: 30px;
+    width: 100px;
+    padding: 1px;
+    text-align: center;
+    margin-top: 10px;
+    background: green;
+}
+li.nav-item  {
+    padding: 0px 35px;
+    font-size: 1rem;
+    /* color: #fff !important; */
+    font-weight: 600;
+}
+li.nav-item a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+section.section1 {
+    background: url(images/blue-red-puzzle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -40px;
+}
+section.section4 {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
+section.section4 .card {
+    border: none;
+}
+section.section4 img.card-img-top {
+    max-width: 90px;
+    margin: 0 auto;
+}
+section.section4 .card-body {
+    margin: 0 auto;
+}
+section.section4 h5.card-title {
+
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+section.section4 button {
+    border: 2px solid green;
+    border-radius: 41px;
+    font-size: 28px;
+    font-weight: 500;
+    color: green;
+    margin: 0 0 0 38px;
+    padding: 0 40px 5px 50px;
+}
+
+section.section5 {
+    background: #E91E63;
+    height: 56vh;
+    padding-top: 110px;
+}
+section.section5 h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+.section5 button.btn {
+    border: 1px solid #fff;
+    border-radius: 41px;
+    width: 300px;
+    font-size: 31px;
+    font-weight: 700;
+    height: 80px;
+    color: #E91E63;
+    background: #fff;
+    margin-left: 260px;
+
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+video#myVideo {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#foo-content {
+    display: block;
+    position: absolute;
+    margin-top: -619px;
+    /* top: 0; */
+    color: #fff;
+}
+div#foo-content h1 {
+    font-size: 3rem;
+}
+#foo-content p {
+    text-align: end;
+}
+
+div#foo-bottom {
+    position: absolute;
+    margin-top: -119px;
+  
+    color: #fff;
+}
+#foo-bottom .col-md-9 {
+    text-align: center;
+    margin-top: 6px;
+}
+
+#foo-bottom .col-md-9 a {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0 75px 0 0px;
+}
+#foo-bottom .col-md-3 a {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0px 0px 0 30px;
+    font-size: 25px;
+}
+.col-md-3 {
+    text-align: end;
+}
