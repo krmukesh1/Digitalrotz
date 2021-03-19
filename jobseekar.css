@@ -20,7 +20,7 @@ a.nav-link.btn1{
     padding: 1px;
     text-align: center;
     margin-top: 10px;
-    background: #E91E63;
+    background: green;
 }
 li.nav-item  {
     padding: 0px 35px;
@@ -32,13 +32,61 @@ li.nav-item a{
     color: #fff !important;
     text-decoration: none !important;
 }
+section.section1 {
+    background: url(images/blue-red-puzzle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -40px;
+}
+section.section1 .join {
+    position: relative;
+    top: 40%;
+    left: 32%;
+}
+section.section1 h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+section.section4 {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
+section.section4 .card {
+    border: none;
+}
+section.section4 img.card-img-top {
+    max-width: 90px;
+    margin: 0 auto;
+}
+section.section4 .card-body {
+    margin: 0 auto;
+}
+section.section4 h5.card-title {
 
-section.section5 {
-    background: #4CAF50;
-    height: 50vh;
-    padding-top: 110px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+section.section4 button {
+    border: 2px solid green;
+    border-radius: 41px;
+    font-size: 28px;
+    font-weight: 500;
+    color: green;
+    margin: 0 0 0 8px;
+    padding: 0 40px 5px 50px;
 }
 
+section.section5 {
+    background: #E91E63;
+    height: 56vh;
+    padding-top: 110px;
+}
+section.section5 h1 {
+    font-size: 4rem;
+    color: #fff;
+}
 
 button:focus:not(:focus-visible) {
     outline: 0;
@@ -50,7 +98,7 @@ button:focus:not(:focus-visible) {
     font-size: 31px;
     font-weight: 700;
     height: 80px;
-    color: #4CAF50;
+    color: #E91E63;
     background: #fff;
     margin-left: 260px;
 
@@ -71,6 +119,9 @@ div#foo-content {
     margin-top: -619px;
     /* top: 0; */
     color: #fff;
+}
+div#foo-content h1 {
+    font-size: 3rem;
 }
 #foo-content p {
     text-align: end;
