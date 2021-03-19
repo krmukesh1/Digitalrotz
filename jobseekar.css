@@ -73,11 +73,20 @@ section.section4 button {
     border-radius: 41px;
     font-size: 28px;
     font-weight: 500;
-    color: green;
+    color: green !important;
     margin: 0 0 0 8px;
     padding: 0 40px 5px 50px;
 }
-
+section.section4 .btn-primary:hover {
+    color: green !important;
+    background-color: #fff !important;
+    border: 2px solid green !important;
+}
+section.section4 .btn-primary {
+    color: green !important;
+    background-color: #fff !important;
+    border: 2px solid green !important;
+}
 section.section5 {
     background: #E91E63;
     height: 56vh;
