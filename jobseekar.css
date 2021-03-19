@@ -87,6 +87,30 @@ section.section4 .btn-primary {
     background-color: #fff !important;
     border: 2px solid green !important;
 }
+section.section4 .modal-content {
+    padding: 20px 75px;
+}
+/* select.form-select.form-select-lg.mb-3 {
+    border-bottom: 1px solid #000 !important;
+    border: none !important;
+}
+input#text {
+    border: none !important;
+}
+input#email {
+    border: none !important;
+}
+input#number {
+    border: none !important;
+} */
+section.section4 input.btn.btn-primary {
+    margin-left: 71px;
+    padding: 0px 63px;
+    background: green !important;
+    color: #fff !important;
+    font-size: 30px;
+
+}
 section.section5 {
     background: #E91E63;
     height: 56vh;
